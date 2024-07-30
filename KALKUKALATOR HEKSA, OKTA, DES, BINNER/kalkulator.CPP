@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+int input ;
+//Minta input dari pengguna
+cout << "Masukan sebuah Bilangan Bulat :" ;
+cin >> input ;
+
+// Inisialisasi hasil modulus
+
+int modulus ;
+
+// Lakukan pembagian berulang oleh 2 hingga hasilnya kurang dari 2
+
+while (input>=2) {
+modulus=input%2 ;
+input=input/2 ;
+cout << "Hasil Pembagian :" << input << ",Modulus" << modulus << endl;
+}
+
+//Tampilkan Hasi akhir
+
+cout << "Hasil Akhir :" << input << endl ;
+
+return 0;
+}

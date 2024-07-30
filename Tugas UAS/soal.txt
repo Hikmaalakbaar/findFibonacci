@@ -1,0 +1,12 @@
+banyak karyawan
+nama karyawan
+karyawan tipe a b c
+gaji a = 50.000 / jam
+b = 35.000 / jam
+c = 20.000 / jam
+
+gaji lembur a = 15.000 / jam
+b = 10.000 jam
+c = 5.000 jam
+
+batas jam kerja 48 jam
